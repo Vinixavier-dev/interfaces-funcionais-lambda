@@ -32,7 +32,9 @@ public class Principal {
                     int respostaInt = Integer.parseInt(respostaString);
                     listaIntegers.add(respostaInt);
                 }   
-            }     
+            }
+            
+            scanner.close();
             
         } while (resposta != -1);
 
